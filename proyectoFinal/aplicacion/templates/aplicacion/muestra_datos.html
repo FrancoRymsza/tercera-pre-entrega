@@ -1,0 +1,16 @@
+{% extends 'aplicacion/home.html' %}
+{% load static %}
+
+{% block titulo %}
+    Muestra de datos
+{% endblock titulo %}
+
+
+{% block contenido %}
+<h1>Resultados de Búsqueda</h1>
+<form method="GET" action="{% url 'muestra_datos' %}">
+    <input type="text" name="producto" value="{{ query }}" placeholder="Buscar...">
+    <button type="submit">Buscar</button>
+</form>
+
+{% endblock contenido %}

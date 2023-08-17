@@ -1,0 +1,1 @@
+Este repositorio de codigo que les envio, se trata de una app donde se pueden agregar clientes y guardarlos en una base de datos como tambien Productos y guardarlos en la base de datos. Tambien tiene un barra de busqueda para realizar busqueda en la base de datos y un menu de inicio. 
